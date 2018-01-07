@@ -1,0 +1,2 @@
+# Synergy_Website_2018
+This is a website for Synergy 2018, which is a technical symposium of IETE-ISF. Ive used php for my backend both in the demand draft form and also in the contact form and the information is sent directly to mail. The events section has a flippable card styling. And you can register for the events by clicking on the events. An image slideshow is also added at the starting of the page. Parallax images are used for the background
