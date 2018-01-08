@@ -1,0 +1,836 @@
+<html>
+<head>
+	<title>Synergy'18</title>
+	
+	<style>
+	body{background-color: #EEF5DB;}
+	h2{text-align: center}
+	.wrapper{width:550px;padding:30px;background:black;}
+	.wrapper h3{text-transform:uppercase;color: #e74c3c}
+	.wrapper p{color: #ffff00;font-weight: bold
+	.wrapper input [type=text],
+	.wrapper input[type=email],
+	 textarea{
+		width: 100%;margin-bottom:15px;
+		padding:5px; height:50px;
+	}
+	.wrapper a{
+		text-decoration:none;
+		background: 2ecc71;
+		color:#0000ff;
+		display:block;
+		padding: 10px 15px;
+		text-align:center;
+		font-size: 35px;
+		
+	}
+	</style>
+	
+	
+</head>
+
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <style>
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+</style>
+
+<style>
+.parallax_1 {
+    /* The image used */
+    background-image: url("mainposter.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_2 {
+    /* The image used */
+    background-image: url("mainposter3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_3 {
+    /* The image used */
+    background-image: url("mainposter.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_4 {
+    /* The image used */
+    background-image: url("mainposter3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_5 {
+    /* The image used */
+    background-image: url("eventscollage.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_6 {
+    /* The image used */
+    background-image: url("eventscollage.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+
+
+
+
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+         	
+         	<body>
+				         		<nav style="position: fixed; z-index:999" >
+				         			<div class="col">
+				    <div class="nav-wrapper">
+				    	<div class="card-image waves-effect waves-block waves-light">
+							<ul id="nav-mobile" class="right hide-on-med-and-down">
+								<li><a href="#iete">About Us</a></li>
+								<li><a href="#events">Register</a></li>
+								<li><a href="#contact">Contact Us</a></li>
+							</ul>
+							
+			                <img src="ietee.png" hspace=0  style="height:50px;width:150px;">
+							
+							<img class="activator" src="logo2.png" hspace=330 style="height:60px;width:250px;">
+							
+							
+						</div>
+				      		      
+				    </div>
+				</div>
+				  </nav>
+				  <br>
+				  <br>
+				  <br>
+				  <br>
+				  <br>
+
+<div class="row">
+	<div class="col s12" style = "padding-right: 0px ; padding-left: 0px">
+		<div class="slider">
+			<ul class="slides">
+				<li>
+        <img src="banner.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="bestchapter.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="robotics2.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+      <li>
+        <img src="vlsi2.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+<div class="row">
+	<center>
+	<h1>Countdown Clock</h1>
+<div id="clockdiv">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+</center>
+</div>
+
+
+
+<div class="parallax_1"></div> 
+
+<div style=" width : 100%  ; background-color: white">
+	<b><h3 style="text-align: center;">VIT University</h3></b>
+	<p style="text-align: justify;">VIT University or VIT, formerly called Vellore Engineering College, is an Indian institute of higher education and a deemed university under Section 3 of the UGC Act. Founded in 1984, as Vellore Engineering College, by G. Viswanathan, the institution offers 20 undergraduate, 34 postgraduate, four integrated and four research programs. It has campuses in Vellore and Chennai, Tamil Nadu, India. Foundation stone for VIT Bhopal campus at Sehore, Madhya Pradesh was laid down by Mr. Shivraj Singh Chauhan (Chief Minister of Madhya Pradesh) on 20 October 2016.VIT has been ranked No. 1 private university and 13th overall best university ahead of many IITs and NITs in India, by National Institutional Ranking Framework published by Ministry of Human Resource Development, Government of India in April 2016. It has been ranked 4th best engineering college in India by the renowned IndiaToday Nielsen Survey 2016. It has been constantly ranked in the Top 10 Engineering colleges in India for the past several years by renowned rankings which include India Today Group, The Week, Hindustan Times, Career 360 and many more.</p>
+</div>
+
+<div class="parallax_2"></div>
+<div style="width:100% ; background-color: white">
+	<b><h3 id ="iete" style="text-align: center;">IETE, VIT</h3></b>
+	<p style="text-align: justify;">The Institution of Electronics and Telecommunication Engineers (IETE) is India's leading recognized professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication & IT. The Institution provides leadership in Scientific and Technical areas of direct importance to the national development and economy. Government of India has recognized IETE as a Scientific and Industrial Research Organization (SIRO) and also notified as an educational Institution of national eminence. The objectives of IETE focus on advancing electro-technology. The IETE conducts and sponsors technical meetings, conferences, symposia, and exhibitions all over India, publishes technical journals and provides continuing education as well as career advancement opportunities to its members.</p>
+</div>
+
+<div class="parallax_3"></div>
+<div class="row"><br><br>
+<div style=" background-color: white" class="col s6">
+	<b><h3 style="text-align: center;">SYNERGY</h3></b>
+	<p style="text-align: justify;">Synergy 2018 is an International Technical Symposium organized by Institution of Electronics and Telecommunication Engineers (IETE-ISF) in association with School of Electronics and Telecommunication Engineering - VIT University, Vellore. Symposium offers a one-of-a-kind experience to students by providing an array of opportunities under one umbrella. The idea behind Synergy'18 is to train students in future forward technologies through workshops and provide global exposure and esoteric knowledge through guest lectures delivered by eminent personalities.Synergy'18 looks forward to promote; âEnvisioning the Futureâ, which not only embraces one's desire to become better, but also enables one to be able to explain the myriad of emotions a person experiences on the path to success and spread the word.</p>
+</div>
+
+
+<div class="col s6">
+	<center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/1drQ6zMkp00" frameborder="0" allowfullscreen></iframe></center>
+</div>
+</div>
+
+<br>
+<div style=" width : 100%  ; background-color: white">
+	<b><h3 style="text-align: center;">ITENARY</h3></b>
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>DAY 1</div>
+      <div class="collapsible-body"><span>
+<p><b>23rd February â18</b></p>
+<p>8:30AM-10AM: Inauguration</p>
+<p>10AM-6PM: Machine Learning Workshop</p>
+<p>10AM-6PM: VLSI Design Workshop</p>
+<p>10AM-6PM: Voice Controlled Robotics</p>
+<p>10AM-6PM: Paper Presentation (CS/IT)</p>
+</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>DAY 2</div>
+      <div class="collapsible-body"><span>	  
+	  
+<p><b>24th February â18</b></p>
+<p>9AM-6PM: Machine Learning Workshop</p>
+<p>9AM-6PM: VLSI Design Workshop</p>
+<p>9AM-6PM: Voice Controlled Robotics Workshop</p>
+<p>8AM-8PM: Code-Olympia</p>
+<p>10AM-6PM: Paper Presentation (ECE/EEE/EIE)</p>
+<p>10AM-6PM: Project Presentation</p>
+	  
+	  </span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>DAY 3</div>
+      <div class="collapsible-body"><span>
+	  
+<p><b>25th February â18</b></p>
+<p>9AM-11AM: Seminar/ Guest Lecture<p>
+<p>2PM-5PM: Web Development Workshop</p>
+<p>6PM-9PM: Cultural Night</p>
+	  
+	  </span></div>
+    </li>
+    
+  </ul>
+</div>
+	  
+        
+
+
+
+<div style=" background-color: white">
+	<b><h3 id = "events" style="text-align: center;">OUR EVENTS</h3></b>
+	<p style="text-align: center; color: red;"> Click on the events to register</p>
+	<div class="row">
+		<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="machine.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">MACHINE LEARNING<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="machinelearning.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">MACHINE LEARNING<i class="material-icons right">close</i></span>
+      <p>Machine learning allows computer programs and systems the ability to develop their senses without anybody else programming them. 
+Did you know that this field of work is so intense and serious, that Facebook decided to shut down their entire AI project after they found 2 robots communicating with each other in a language unknown to us?!! </p>
+
+<p>We at IETE-ISF, are proud to announce our Machine Learning workshop, aimed at growing the interest of this field among the budding engineers.
+The 2 day workshop will briefly introduce the students to artificial neural networks (ANN), and present machine learning to them, through applications of image processing, data mining etc.</p>
+
+<p>Field experts from Scientific Computing Solutions, Chennai guarantee this event to be fun-filled & interactive as they will take students through hand-worked numerical examples using the MATLAB & SciLAB softwares. 
+Also, they will be providing certificates thatâll add to your resume.</p>
+
+<p>To all the enthusiasts out there, donât let this opportunity slip through your hands. Register yourselves ASAP.</p>
+<p>Registration Fees :</p>
+<p><b>Rs. 900 â Non-IETE members</b></p>
+<p><b>Rs. 700 â IETE members</b></p>
+ 
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body" style="max-height:.1px"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="vlsiworkshop.jpeg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">VLSI<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="vlsi.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">VLSI<i class="material-icons right">close</i></span>
+      <p>Have you ever wondered how multitude of data can be stored in tiny IC chips? </p>
+<p>'Microprocessor-oriented robotics' sounds fascinating to you?
+If the answers to the above questions are an astounding YES, then IETE-ISF's VLSI Design workshop is the place you want to be, this February. </p>
+
+<p>Over the course of 2 days, you will be taught various topics including VLSI design methodologies and review of digital systems. Hands-on practical knowledge will be imparted when students will be taught design entry methods using Verilog HDL, FSM design and lots of other interesting things. These will surely add feathers to your resume and help you stand out from the crowd.
+And mind you, veterans from the electronics industry from 'India Labs' will be covering this workshop, on 23rd & 24th February, 2018, so you do not want to miss this out !</p>
+
+<p>Registration Fees:-</p>
+<p><b>900 Rs/person - non-IETE people</b></p>
+<p><b>700 Rs/person - IETE people</b></p>
+
+<p>So, what are you waiting for? Hurry up and register, NOW!!</p>
+</p>
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="android.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">ANDROID APP DEV.<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="android.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">ANDROID APP DEVELOPMENT WORKSHOP<i class="material-icons right">close</i></span>
+      <p> Do you ever feel that an App doesn't fulfill your needs? Ever felt like building one of your own?</p>
+<p>Like there's no house without windows, there's no Smart Phone without apps.
+What if you could develop your very own app from the scratch?</p>
+
+<p>Luckily you are presented with the opportunity to learn android app development from the scratch with no pre-requisite and equipping you with necessary app development software.</p>
+
+<p>IETE-VIT presents ANDROID APP DEVELOPMENT workshop, this Synergy, an opportunity for you to create your own Apps.
+ In this informative workshop, students will be taught to develop apps, using the Android Studio software, from scratch. During the course of this workshop, participants will be taught everything, starting from the very basics, and gradually moving on to develop their very own fully-functional Android app !
+So what are you waiting for? Get ready to flaunt your newly acquired skill as we introduce you to the electryfying world of the Android App development!</p>
+
+<p>Mark your calendars and donât miss this exciting opportunity !</p>
+<p>Registration Fees : <b>200Rs / person </b></p>
+</p>
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="robotics.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">ROBOTICS WORKSHOP<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="robotics.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">ROBOTICS WORKSHOP<i class="material-icons right">close</i></span>
+      <p>Imagine a robot which could attend to your whims & desires just by hearing your voice. Now imagine you developing the robot yourself. Sound awesome?</p>
+
+<p>IETE-ISF, in association with roboVITics welcomes you to our brand new Voice-Controlled Robotics workshop.</p>
+
+<p>In this workshop spanning 2 days, participants will be brushed up with the basics of robotics and using the Arduino software. They will be taught how to handle the L293D IC and constructing a robot using it.
+Students will also be helped in building voice recognition Android app, controlling a robot using the app and much more!</p>
+
+<p>If that was not enough to get your attention, we will also be providing hardware kits, and a certificate, which would prove to be useful in your future endeavours.</p>
+
+<p>Hurry up, guys! You canât afford to miss this one out.</p>
+
+<p>Registration Fees: </p>
+<p><b>900 Rs â non-IETE members</b></p>
+<p><b>700 Rs â IETE members</b></p>
+
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row">
+		<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="paper.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">PAPER PRESENTATION<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="paper.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">PAPER PRESENTATION<i class="material-icons right">close</i></span>
+      <p>Do you have the zeal to show your research idea & products to the world?
+Want your ideas to get attention, and opinions from experienced people?
+
+Donât worry, as we are back with our Paper Presentation session with IETE-ISFâs Synergy â18!!
+The Paper Presentation Event at Synergy'18 aims to provide the best platform to showcase your research ideas in front of an esteemed panel of judges. If you have carried out research works in the electronics & computer-science fields, we would be more than happy to hear your ideas out! Prepare a presentation and unleash the speaker in you to grab exciting prizes! 
+
+So hurry up and grab this chance because opportunities donât knock twice!! 
+Mail your CSE/IT/ECE/EEE/EIE related abstracts to synergypapers18@gmail.com by 10th January, 2018. 
+If your idea gets selected, it will be published in the International Journal for Research in Applied Science and Engineering Technology (IJRASET) with a Thomosn Reuters indexing, an astounding scientific journal impact factor of 6.887 and an ISRA journal impact factor of 3.166.
+Registration Fee:- 500 / per participant
+</p>
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="code.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">CODEOLYMPIA<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="codeolympia.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">CODEOLYMPIA<i class="material-icons right">close</i></span>
+      <p>Do solving nerve-wracking coding questions count among your hobbies?
+Is competitive programming enough to get your juices flowing?</p>
+
+<p> YES, then IETE-ISFâs Codeolympia is an event you have to be a part of, this February.
+This thrilling 12-hours non-stop coding fest, conducted as collaboration with SENSE-VIT promises to be a splendid show of young coding talent, where participants will be given programming questions of varying levels, and there will be a plethora of coding languages to choose from, in order to solve them.
+
+And thatâs not it. This event will be held in association with HackerRank.
+All the participants will get participation certificates, and the top 5 teams will get exciting goodies, from HackerRank. 
+Hurry up guys, 7000Rs of cash prize is waiting to be taken home.
+ Get yourself registered NOW!!!</p>
+
+<p>Registration Fees: - Rs. 300, for a team of 2</p>
+
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="a.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">GUEST LECTURE<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="culturalnight.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">GUEST LECTURE<i class="material-icons right">close</i></span>
+      <p>Some things are best left unsaid!!</p>
+	  <p> It will be LEGEN ..wait for it..DARY </p>
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+<div class="col l3 s12">
+	 <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="a.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">CULTURAL NIGHT<i class="material-icons right">more_vert</i></span>
+      <p><a href="#" download="culturalnight.pdf">Download Full Description</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">CULTURAL NIGHT<i class="material-icons right">close</i></span>
+      <p> Do you ever feel that an App doesn't fulfill your needs? Ever felt like building one of your own?
+Like there's no house without windows, there's no Smart Phone without apps.
+What if you could develop your very own app from the scratch?
+
+Luckily you are presented with the opportunity to learn android app development from the scratch with no pre-requisite and equipping you with necessary app development software
+
+IETE-VIT presents ANDROID APP DEVELOPMENT workshop, this Synergy, an opportunity for you to create your own Apps.
+ In this informative workshop, students will be taught to develop apps, using the Android Studio software, from scratch. During the course of this workshop, participants will be taught everything, starting from the very basics, and gradually moving on to develop their very own fully-functional Android app !
+So what are you waiting for? Get ready to flaunt your newly acquired skill as we introduce you to the electryfying world of the Android App development!
+
+Mark your calendars and donât miss this exciting opportunity !
+Registration Fees : 200Rs / person 
+</p>
+      <div style=" width : 100%  ; background-color: white">
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>REGISTER</div>
+      <div class="collapsible-body"><a href="Demanddraft.html"><span>Demand Draft</span></a></div>
+      <div class="collapsible-body"><a href="form.html"><span>Online</span></a></div>
+    </li>
+  </ul>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="parallax_5"></div>
+<script type="text/javascript">
+	 $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+</script>
+
+<div style=" width : 100%  ; background-color: white">
+	<b><h3 style="text-align: center;">OUR COMBOS</h3></b>
+	  <ul class="collapsible popout" data-collapsible="accordion">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>COMBO 1</div>
+      <div class="collapsible-body"><span>
+<p>1.	Machine Learning Workshop &nbsp;  <b>Rs.900  </b> </p>
+<p>2.	Guest Lecture &nbsp; &nbsp; &nbsp;  <b>Free </b>  </p>                                                                      
+<p>3.	Android App Development Workshop  &nbsp;      <b>   Rs.200  </b></p>
+<p>4.	Cultural Night         &nbsp; &nbsp; &nbsp;  <b>    Rs.350   </b>  </p>
+<p>5.	Seminar      &nbsp; &nbsp; &nbsp;            <b>   Free  </b> </p>
+<p>TOTAL          &nbsp; &nbsp; &nbsp;            <b>  Rs.1450 </b></p>
+
+<p>Registration Fee = <b> Rs.1400 </b></p>
+</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>COMBO 2</div>
+      <div class="collapsible-body"><span>	  
+	  
+<p>1.	VLSI Design Workshop &nbsp;  <b>Rs.1000  </b> </p>
+<p>2.	Guest Lecture &nbsp; &nbsp; &nbsp;  <b>Free </b>  </p>                                                                      
+<p>3.	Android App Development Workshop  &nbsp;      <b>   Rs.200  </b></p>
+<p>4.	Cultural Night         &nbsp; &nbsp; &nbsp;  <b>    Rs.350   </b>  </p>
+<p>5.	Seminar      &nbsp; &nbsp; &nbsp;            <b>   Free  </b> </p>
+<p>TOTAL          &nbsp; &nbsp; &nbsp;            <b>  Rs.1550 </b></p>
+
+<p>Registration Fee = <b> Rs.1500 </b></p>
+	  
+	  
+	  </span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>COMBO 3</div>
+      <div class="collapsible-body"><span>
+	  
+<p>1.	Wireless Voice Controlled robotics workshop &nbsp;  <b>Rs.900  </b> </p>
+<p>2.	Guest Lecture &nbsp; &nbsp; &nbsp;  <b>Free </b>  </p>                                                                      
+<p>3.	Android App Development Workshop  &nbsp;      <b>   Rs.200  </b></p>
+<p>4.	Cultural Night         &nbsp; &nbsp; &nbsp;  <b>    Rs.350   </b>  </p>
+<p>5.	Seminar      &nbsp; &nbsp; &nbsp;            <b>   Free  </b> </p>
+<p>TOTAL          &nbsp; &nbsp; &nbsp;            <b>  Rs.1450 </b></p>
+
+<p>Registration Fee = <b> Rs.1400 </b></p>
+	  
+	  </span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>COMBO 4</div>
+      <div class="collapsible-body"><span>
+	  
+<p>1.	Codeolympia &nbsp;  <b>Rs.900  </b> </p>
+<p>2.	Guest Lecture &nbsp; &nbsp; &nbsp;  <b>Free </b>  </p>                                                                      
+<p>3.	Android App Development Workshop  &nbsp;      <b>   Rs.200  </b></p>
+<p>4.	Cultural Night         &nbsp; &nbsp; &nbsp;  <b>    Rs.350   </b>  </p>
+<p>5.	Seminar      &nbsp; &nbsp; &nbsp;            <b>   Free  </b> </p>
+<p>TOTAL          &nbsp; &nbsp; &nbsp;            <b>  Rs.1450 </b></p>
+
+<p>Registration Fee = <b> Rs.1400 </b></p>
+	  </span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">blur_on</i>COMBO 5</div>
+      <div class="collapsible-body"><span>
+	  
+<p>1.	Paper Presentation &nbsp;  <b>Rs.500  </b> </p>
+<p>2.	Guest Lecture &nbsp; &nbsp; &nbsp;  <b>Free </b>  </p>                                                                      
+<p>3.	Android App Development Workshop  &nbsp;      <b>   Rs.200  </b></p>
+<p>4.	Cultural Night         &nbsp; &nbsp; &nbsp;  <b>    Rs.350   </b>  </p>
+<p>5.	Seminar      &nbsp; &nbsp; &nbsp;            <b>   Free  </b> </p>
+<p>TOTAL          &nbsp; &nbsp; &nbsp;            <b>  Rs.1050 </b></p>
+
+<p>Registration Fee = <b> Rs.1000 </b></p>
+	  </span></div>
+    </li>
+  </ul>
+</div>
+<div class="parallax_6"></div>
+<script>
+	 var options = [
+    {selector: '.class', offset: 200, callback: customCallbackFunc },
+    {selector: '.other-class', offset: 200, callback: function() {
+      customCallbackFunc();
+    } },
+  ];
+  Materialize.scrollFire(options);
+</script>
+
+
+
+
+
+
+<script>
+
+  $(document).ready(function(){
+      $('.slider').slider();
+    });
+// Start slider
+$('.slider').slider('start');
+</script>
+
+<script>
+function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
+
+var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
+
+</script>
+<footer class="page-footer">
+          <div id="fourth" style="padding-bottom:50;background-color:##00816A">
+
+
+
+
+
+
+<div class="row">
+
+<div class="col s12">
+<h4 align="center" class="white-text">Our Partners</h4><hr width="50%" align="center">
+<img class="col s12 m2 offset-m1" style="padding-top:50" src="static1/pics/yb.png">
+<img class="col s12 m2" style="padding-top:50" src="static1/pics/dbqc.png">
+<img class="col s12 m3 " style="padding-top:50" src="static1/pics/vac.png">
+<img class="col s12 m2 " style="padding-top:50" src="static1/pics/dc.png">
+</div>
+	
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="grey darken-4" id="fifth" style="padding-bottom:10">
+<div class="row">
+<h2>Contact Form</h2>
+	<hr>
+	<div class = "wrapper" style="margin:0 auto" align=center >
+		<h3>Feel Free to Contact Us!</h3>
+		<p>We will try to get back to you within 24 hours!</p>
+		<input type = "text" name = "" id="" placeholder="Enter your name">
+		<input type = "text" name = "" id="" placeholder="Enter your Email">
+		<input type = "text" name = "" id="" placeholder="Enter your Phone Number">
+		<textarea name ="" id="" cols="30" rows="10" placeholder="Type Your Message here"></textarea>
+		<a href = "#" style="font-size:20px" onclick="myAlertBox()">Submit</a>
+	</div>
+	
+<script>
+	function myAlertBox() {
+      alert("Your message was sent successfully!!!!");
+    }
+</script>
+
+
+<hr width="82%"><br>
+<h5 align="left" class="col s6 m4 offset-m1" style="color:#e6b707">Name:<font style="color:white"> Rahul Raj</font></h5>
+<h5 align="right" class="col s6 m3 offset-m3" style="color:#e6b707">Name:<font style="color:white"> Shubham Jain&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></h5>
+<h5 align="left" class="col s6 m4 offset-m1" style="color:#e6b707">Mobile:<font style="color:white"> +91-9585326110</font></h5>
+<h5 align="right" class="col s6 m3 offset-m3" style="color:#e6b707">Mobile:<font style="color:white"> +91-9905307894</font></h5>
+<h6 align="center" class="col s11 offset-s1" style="color:#e6b707;padding-top:20">Mail us at:<font style="color:white"><a href="iete@vit.ac.in" style="text-decoration:underline;">iete@vit.ac.in</a></font></h6>
+<h6 align="center" class="col s11 offset-s1" style="color:#e6b707">Follow us on: <font style="color:white"><a href="https://www.facebook.com/Synergy'18" style="text-decoration:underline;">https://www.facebook.com/Synergy'18</a></font></h6>
+</div>
+</div>
+        </footer>	
+
+			</body>
+</html>

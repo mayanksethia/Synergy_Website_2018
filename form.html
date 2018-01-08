@@ -1,0 +1,194 @@
+<html>
+<head><title>Registration Form</title></head>
+<link rel="stylesheet" href="css/materialize.min.css">
+
+<!--Initialising javascript folders-->
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.1.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<!--Initialising icon font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<h3 class="center head" style="color:#000000 " >Registration Form</h3>
+<h5 class="center head" style="color:#2196f3" >Synergy'17</h5><hr width="40%" align="center"><br><br>
+<div class="col l8 s12 offset-l2" style="background-color:white">
+
+  	<div id="basic_reg" class="col s12">
+
+	<!--<form autocomplete="off" id="form" method="post" action="https://synergyietevit.tk/reg.php">-->
+	<form autocomplete="off" id="form" method="post" action="reg.php">
+
+
+	<div class="modal-content center black-text" style="position:relative;;">
+		<div class="row">
+				<div class="input-field col s8 offset-s2" style="margin-top:60">
+					<input type="text" id="fname" name="fname" class="validate black-text" >
+					<label for="name">First Name</label>
+				</div>
+				<div class="input-field col s8 offset-s2">
+					<input type="text" id="lname" name="lname" class="validate black-text" >
+					<label for="lnamer">Last Name</label>
+				</div>
+				<div class="input-field col s8 offset-s2">
+					<input type="text" id="college" name="college" class="validate black-text" >
+					<label for="dob">College</label>
+				</div>
+        <div class="input-field col s8 offset-s2">
+  					<input type="text" id="regno" name="id" class="validate black-text" >
+  					<label for="regno">College ID Number</label>
+  				</div>
+
+
+				<div class="input-field col s8 offset-s2">
+					<input type="text" id="address" name="address" class="validate black-text" >
+					<label for="address">Address</label>
+				</div>
+        <div class="input-field col s8 offset-s2">
+          <input type="text" id="city" name="city" class="validate black-text" >
+          <label for="city">City</label>
+        </div>
+        <div class="input-field col s8 offset-s2">
+          <input type="text" id="state" name="state" class="validate black-text" >
+          <label for="state">State</label>
+        </div>
+			<div class="input-field col s8 offset-s2">
+					<input type="text" id="mobile" name="mobile" class="validate black-text" >
+					<label for="mobile">Mobile Number</label>
+				</div>
+				<div class="input-field col s8 offset-s2">
+					<input type="text" id="email" name="email" class="validate black-text" >
+					<label for="email">Email ID</label>
+				</div>
+      </div>
+
+
+          <div class="row">
+				<h6 align="left" class="col s4 offset-s2 " style="margin-top:20"><b>Workshops</b></h6>
+				<h6 align="left" class="col l2 s2" style="margin-top:20"><b>IETE memnber</b></h6>
+				<h6 align="left" class="col l2 s2 offset-s2" style="margin-top:20"><b>Non-IETE member</b></h6>
+				
+				<br><br><br>
+      				<h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">Data Analytics and Machine Learning Workshop</h6>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catm" name="cat" value="m"/>700
+      				  <!--<label for="catm" class="black-text">INR 700</label>-->
+      				</p>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catnm" name="cat" value="nm" />900
+      				  <!--<label for="catnm" class="black-text">INR 900<br></label>-->
+      				</p>
+					<br>
+					<br>
+              <h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">VLSI Design Workshop</h6>
+              <p class="col l2 s4">
+                <input type="radio" id="cat2m" name="cat2" value="m"/>800
+                <!--<label for="cat2m" class="black-text">INR 800</label>-->
+              </p>
+              <p class="col l2 s4">
+                <input type="radio" id="cat2nm" name="cat2" value="nm" />1000
+                <!--<label for="cat2nm" class="black-text">INR 1000<br></label>-->
+              </p>
+			  <br>
+			  <br>
+			  
+			  <h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">Android App Development Workshop</h6>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catm" name="cat3" value="m"/>
+      				  <label for="catm" class="black-text">INR 200</label>
+      				</p>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catnm" name="cat3" value="nm" />
+      				  <label for="catnm" class="black-text">INR 200<br></label>
+      				</p>
+			  
+			  
+			  <br>
+			  <br>
+			  
+			  <h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">Robotics Workshop</h6>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catm" name="cat4" value="m"/>
+      				  <label for="catm" class="black-text">INR 700</label>
+      				</p>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catnm" name="cat4" value="nm" />
+      				  <label for="catnm" class="black-text">INR 900<br></label>
+      				</p>
+			  
+              </div>
+			  
+			  <br>
+			  <br>
+            <div class="row">
+	            <!--<h6 align="left" class="col s6 offset-s2" style="margin-top:20"><b>Event Name</b></h6>
+				<h6 align="left" class="col s2" style="margin-top:20"><b>Registration Fee</b></h6> -->
+        <p class="col s6 offset-s2">
+          <input type="checkbox" id="paper" name="paper" value="300"/>
+          <label for="paper" class="black-text">Paper Presentation</label>
+        </p>
+            <h6 align="left" class="col s2" style="margin-top:22">INR 300</h6>
+			
+			
+			 <p class="col s6 offset-s2">
+          <input type="checkbox" id="code" name="code" value="300"/>  
+		  
+          <label for="paper" class="black-text">Code Olympia</label>
+        </p>
+            <h6 align="left" class="col s2" style="margin-top:22">INR 300</h6>
+			
+			<br>					
+			
+				
+          <input type="checkbox" id="guestlecture" name="guestlecture" value="NIL"/>
+          <label for="research" class="black-text">Guest Lecture</label>
+        </p>
+        <h6 align="left" class="col s2" style="margin-top:22">NIL</h6>
+		
+        <p class="col s6 offset-s2">
+          <input type="checkbox" id="cultural" name="cultural" value="350"/>
+          <label for="cultural" class="black-text">Cultural Night</label>
+        </p>
+        <h6 align="left" class="col s2" style="margin-top:22">INR 350</h6>
+
+        <h6 align="left" class="col s6 offset-s2" style="margin-top:20"><b>Combos</b></h6>
+     <h6 align="left" class="col s2" style="margin-top:20"><b>Registration Fee</b></h6>
+				<p class="col s6 offset-s2">
+				  <input type="checkbox" id="c1" name="c1" value="1450" />
+				  <label for="c1" class="black-text">Combo1</label>
+				</p>
+				<h6 align="left" class="col s2" style="margin-top:22">INR 1450</h6>
+        <p class="col s6 offset-s2">
+          <input type="checkbox" id="c2" name="c2" value="1550" />
+          <label for="c2" class="black-text">Combo2</label>
+        </p>
+        <h6 align="left" class="col s2" style="margin-top:22">INR 1550</h6>
+        <p class="col s6 offset-s2">
+        <input type="checkbox" id="c3" name="c3" value="1450" />
+        <label for="c3" class="black-text">Combo3</label>
+      </p>
+      <h6 align="left" class="col s2" style="margin-top:22">INR 1450</h6>
+      <p class="col s6 offset-s2">
+      <input type="checkbox" id="c4" name="c4" value="1450" />
+      <label for="c4" class="black-text">Combo4</label>
+    </p>
+    <h6 align="left" class="col s2" style="margin-top:22">INR 1450</h6>
+	
+	<input type="checkbox" id="c5" name="c5" value="1050" />
+      <label for="c5" class="black-text">Combo5</label>
+    </p>
+    <h6 align="left" class="col s2" style="margin-top:22">INR 1050</h6>
+	
+	
+	
+</div>
+			</div>
+
+		<div class="row" style="text-align:center;">
+		<button id="submit2" class="btn col l2 m2 s6 white-text black lighten-1" style="position: absolute;transform:translateX(-50%)" name="action">Submit</button>
+		</div>
+	<br>
+	</form>
+
+	</div>
+</html>

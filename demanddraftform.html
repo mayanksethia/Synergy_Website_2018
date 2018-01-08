@@ -1,0 +1,239 @@
+<html>
+<head><title>Registration Form</title>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<!--Initialising icon font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+
+<h3 class="center head" style="color:#000000 " >Demand Draft Form</h3>
+<h5 class="center head" style="color:#2196f3" >Synergy'18</h5><hr width="40%" align="center"><br><br>
+<div class="col l8 s12 offset-l2" style="background-color:white">
+
+<div>
+	<h4 style = "color:red;text-decoration:underline;text-align:center;">Instructions</h4>
+	
+	<p style="text-align:center;">Download the form below and send the form along with the Demand Draft in the address mentioned in the form</p>
+	<p style="text-align:center;text-decoration:underline"><a href="externalApplicationSynergy18.pdf" download="External Application Synergy'18" >External Application Form Synergy'18</a></p>
+</div>
+
+<div id="dd" class="col s12">
+
+	<!--<form autocomplete="off" id="form" method="post" action="https://synergyietevit.tk/reg.php">-->
+	<form autocomplete="off" name="form" method="post" action="send_dd.php">
+
+
+	<div class="modal-content center black-text" style="position:relative;;">
+		<div class="row">
+				<div class="input-field col s8 offset-s2" style="margin-top:60">
+					<i class="material-icons prefix">account_circle</i>
+					<input type="text" id="first_name" name="first_name" class="validate black-text" required >
+					<label for="name">First Name</label>
+				</div>
+				<div class="input-field col s8 offset-s2">
+					<i class="material-icons prefix">account_circle</i>
+					<input type="text" id="last_name" name="last_name" class="validate black-text" required >
+					<label for="lname">Last Name</label>
+				</div>
+				<div class="input-field col s8 offset-s2">
+					<i class="material-icons prefix">account_balance</i>
+					<input type="text" id="college" name="college" class="validate black-text"  required>
+					<label for="college">College</label>
+				</div>
+        <div class="input-field col s8 offset-s2">
+		
+					<i class="material-icons prefix">assignment_ind</i>
+  					<input type="text" id="college_id" name="college_id" class="validate black-text"  required>
+  					<label for="regno">College ID Number</label>
+  				</div>
+		<div class="input-field col s8 offset-s2">
+		
+					<i class="material-icons prefix">monetization_on</i>
+  					<input type="text" id="bank_name" name="bank_name" class="validate black-text"  required>
+  					<label for="bank_name">Bank Name</label>
+  				</div>			
+		<div class="input-field col s8 offset-s2">
+		
+					<i class="material-icons prefix">monetization_on</i>
+  					<input type="text" id="branch_name" name="branch_name" class="validate black-text"  required>
+  					<label for="branch_name">Branch Name</label>
+  				</div>
+		<div class="input-field col s8 offset-s2">
+		
+					<i class="material-icons prefix">monetization_on</i>
+  					<input type="text" id="dd_no" name="dd_no" class="validate black-text" required >
+  					<label for="dd_no">Demand Draft No.</label>
+  				</div>
+				
+				<div class="input-field col s8 offset-s2">
+				
+					<i class="material-icons prefix">home</i>
+					<input type="text" id="address" name="address" class="validate black-text"  required>
+					<label for="address">Address</label>
+				</div>
+        <div class="input-field col s8 offset-s2">
+		
+					<i class="material-icons prefix">location_city</i>
+          <input type="text" id="city" name="city" class="validate black-text"  required>
+          <label for="city">City</label>
+        </div>
+        <div class="input-field col s8 offset-s2">
+		<i class="material-icons prefix">location_city</i>
+          <input type="text" id="state" name="state" class="validate black-text" required >
+          <label for="state">State</label>
+        </div>
+			<div class="input-field col s8 offset-s2">
+			<i class="material-icons prefix">contact_phone</i>
+					<input type="text" id="number" name="number" class="validate black-text"  required>
+					<label for="number">Mobile Number</label>
+				</div>
+				<div class="input-field col s8 offset-s2">
+				<i class="material-icons prefix">email</i>
+					<input type="text" id="email" name="email" class="validate black-text" required >
+					<label for="email">Email ID</label>
+				</div>
+      </div>
+
+	  <h5 class="center head" style="color:#2196f3" >Choose the event for which you have paid for</h5>
+
+          <div class="row">
+				<h6 align="left" class="col s4 offset-s2 " style="margin-top:20"><b>Workshops</b></h6>
+				<h6 align="left" class="col l2 s2" style="margin-top:20"><b>IETE memnber</b></h6>
+				<h6 align="left" class="col l2 s2 offset-s2" style="margin-top:20"><b>Non-IETE member</b></h6>
+				
+				<br><br><br>
+      				<h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">Data Analytics and Machine Learning Workshop</h6>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catm" name="cat" value="m"/>
+      				  <label for="catm" class="black-text">INR 700</label>
+      				</p>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="catnm" name="cat" value="nm" />
+      				  <label for="catnm" class="black-text">INR 900<br></label>
+      				</p>
+					<br>
+					<br>
+              <h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">VLSI Design Workshop</h6>
+              <p class="col l2 s4">
+                <input type="radio" id="cat2m" name="cat2" value="m"/>
+                <label for="cat2m" class="black-text">INR 800</label>
+              </p>
+              <p class="col l2 s4">
+                <input type="radio" id="cat2nm" name="cat2" value="nm" />
+                <label for="cat2nm" class="black-text">INR 1000<br></label>
+              </p>
+			  <br>
+			  <br>
+			  
+			  <h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">Android App Development Workshop</h6>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="cat3m" name="cat3" value="m"/>
+      				  <label for="cat3m" class="black-text">INR 200</label>
+      				</p>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="cat3nm" name="cat3" value="nm" />
+      				  <label for="cat3nm" class="black-text">INR 200<br></label>
+      				</p>
+			  
+			  
+			  <br>
+			  <br>
+			  
+			  <h6 align="left" class="col l4 s4 offset-l2" style="margin-top:22">Robotics Workshop</h6>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="cat4m" name="cat4" value="m"/>
+      				  <label for="cat4m" class="black-text">INR 700</label>
+      				</p>
+      				<p class="col l2 s4">
+      				  <input type="radio" id="cat4nm" name="cat4" value="nm" />
+      				  <label for="cat4nm" class="black-text">INR 900<br></label>
+      				</p>
+			  
+              </div>
+			  
+			  <br>
+			  <br>
+            <div class="row">
+	            <!--<h6 align="left" class="col s6 offset-s2" style="margin-top:20"><b>Event Name</b></h6>
+				<h6 align="left" class="col s2" style="margin-top:20"><b>Registration Fee</b></h6> -->
+        <p class="col s6 offset-s2">
+          <input type="checkbox" id="paper" name="paper" value="300"/>
+          <label for="paper" class="black-text">Paper Presentation</label>
+        </p>
+            <h6 align="left" class="col s2" style="margin-top:22">INR 300</h6>
+			
+			
+			 <p class="col s6 offset-s2">
+          <input type="checkbox" id="code" name="code" value="300"/>  
+		  
+          <label for="code" class="black-text">Code Olympia</label>
+        </p>
+            <h6 align="left" class="col s2" style="margin-top:22">INR 300</h6>
+			
+			<br>					
+			
+		<p class="col s6 offset-s2">		
+          <input type="checkbox" id="guestlecture" name="guestlecture" value="0"/>
+          <label for="guestlecture" class="black-text">Guest Lecture</label>
+        </p>
+        <h6 align="left" class="col s2" style="margin-top:22">NIL</h6>
+		
+        <p class="col s6 offset-s2">
+          <input type="checkbox" id="cultural" name="cultural" value="350"/>
+          <label for="cultural" class="black-text">Cultural Night</label>
+        </p>
+        <h6 align="left" class="col s2" style="margin-top:22">INR 350</h6>
+
+        <h6 align="left" class="col s6 offset-s2" style="margin-top:20"><b>Combos</b></h6>
+     <h6 align="left" class="col s2" style="margin-top:20"><b>Registration Fee</b></h6>
+				<p class="col s6 offset-s2">
+				  <input type="checkbox" id="c1" name="c1" value="1450" />
+				  <label for="c1" class="black-text">Combo1</label>
+				</p>
+				<h6 align="left" class="col s2" style="margin-top:22">INR 1450</h6>
+        <p class="col s6 offset-s2">
+          <input type="checkbox" id="c2" name="c2" value="1550" />
+          <label for="c2" class="black-text">Combo2</label>
+        </p>
+        <h6 align="left" class="col s2" style="margin-top:22">INR 1550</h6>
+        <p class="col s6 offset-s2">
+        <input type="checkbox" id="c3" name="c3" value="1450" />
+        <label for="c3" class="black-text">Combo3</label>
+      </p>
+      <h6 align="left" class="col s2" style="margin-top:22">INR 1450</h6>
+      <p class="col s6 offset-s2">
+      <input type="checkbox" id="c4" name="c4" value="1450" />
+      <label for="c4" class="black-text">Combo4</label>
+    </p>
+    <h6 align="left" class="col s2" style="margin-top:22">INR 1450</h6>
+	<p class="col s6 offset-s2">
+	<input type="checkbox" id="c5" name="c5" value="1050" />
+      <label for="c5" class="black-text">Combo5</label>
+    </p>
+    <h6 align="left" class="col s2" style="margin-top:22">INR 1050</h6>
+	
+	
+	
+</div>
+</div>
+
+		<div class="row" style="text-align:center;">
+		<button id="submit2" class="btn col l2 m2 s6 white-text black lighten-1" style="position: absolute;transform:translateX(-50%)" name="action">Submit</button>
+		</div>
+	<br>
+	</form>
+
+	</div>
+	</div>
+</html>
